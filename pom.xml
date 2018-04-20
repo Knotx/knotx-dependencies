@@ -10,6 +10,8 @@
 
   <name>Knotx.x Stack - Knotx.x components and required dependencies versions</name>
   <packaging>pom</packaging>
+  <description>Knot.x stack dependencies POM</description>
+  <url>http://knotx.io</url>
 
   <inceptionYear>2016</inceptionYear>
   <licenses>
@@ -19,6 +21,21 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <name>Tomasz Michalak</name>
+      <email>tomasz.michalak@cognifide.com</email>
+    </developer>
+    <developer>
+      <name>Maciej Laskowski</name>
+      <email>maciej.laskowski@cognifide.com</email>
+    </developer>
+    <developer>
+      <name>Marcin Czeczko</name>
+      <email>marcin.czeczko@cognifide.com</email>
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:git://github.com/Knotx/knotx-dependencies.git</connection>
@@ -136,6 +153,12 @@
         <groupId>io.knotx</groupId>
         <artifactId>knotx-core</artifactId>
         <type>test-jar</type>
+        <version>${project.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-mocks</artifactId>
         <version>${project.version}</version>
         <scope>test</scope>
       </dependency>
