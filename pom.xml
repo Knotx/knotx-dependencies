@@ -153,13 +153,6 @@
         <artifactId>knotx-stack-manager</artifactId>
         <version>${project.version}</version>
       </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-core</artifactId>
-        <type>test-jar</type>
-        <version>${project.version}</version>
-        <scope>test</scope>
-      </dependency>
 
       <!-- Logger -->
       <dependency>
@@ -201,6 +194,19 @@
       </dependency>
 
       <!-- Test deps -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-core</artifactId>
+        <type>test-jar</type>
+        <version>${project.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-junit5</artifactId>
+        <version>${project.version}</version>
+        <scope>test</scope>
+      </dependency>
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
