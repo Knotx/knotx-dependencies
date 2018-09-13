@@ -78,25 +78,28 @@
 
     <!-- Dependencies versions -->
     <jsoup.version>1.11.2</jsoup.version>
-    <commons-io.version>2.5</commons-io.version>
-    <commons-lang3.version>3.5</commons-lang3.version>
+    <commons-io.version>2.6</commons-io.version>
+    <commons-lang3.version>3.8</commons-lang3.version>
     <commons-collections.version>3.2.2</commons-collections.version>
-    <guava.version>20.0</guava.version>
-    <logback-classic.version>1.1.8</logback-classic.version>
+    <commons-collections4.version>4.2</commons-collections4.version>
+    <guava.version>26.0-jre</guava.version>
+    <logback-classic.version>1.2.3</logback-classic.version>
     <typesafe.version>1.3.3</typesafe.version>
 
     <!-- Test deps versions -->
     <junit.version>4.12</junit.version>
-    <junit5.version>5.2.0</junit5.version>
+    <junit5.version>5.3.1</junit5.version>
     <junit5-surefire.version>1.2.0</junit5-surefire.version>
     <hamcrest.version>1.3</hamcrest.version>
-    <powermock.version>1.6.6</powermock.version>
+    <assertj.version>3.11.1</assertj.version>
+    <powermock.version>1.7.4</powermock.version>
     <mockito.version>2.0.2-beta</mockito.version>
-    <mockito2.version>2.21.0</mockito2.version>
+    <mockito2.version>2.22.0</mockito2.version>
     <zohhak.version>1.1.1</zohhak.version>
     <hamcrest-json.version>0.2</hamcrest-json.version>
     <system-rules.version>1.16.1</system-rules.version>
     <wiremock.version>2.18.0</wiremock.version>
+    <free-port-finder.version>1.1.1</free-port-finder.version>
 
     <maven.nexus.staging.plugin.version>1.6.7</maven.nexus.staging.plugin.version>
     <maven.gpg.plugin.version>1.5</maven.gpg.plugin.version>
@@ -195,6 +198,11 @@
         <version>${commons-collections.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-collections4</artifactId>
+        <version>${commons-collections4.version}</version>
+      </dependency>
+      <dependency>
         <groupId>com.typesafe</groupId>
         <artifactId>config</artifactId>
         <version>${typesafe.version}</version>
@@ -261,19 +269,19 @@
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>${mockito2.version}</version>
-        <scope>test</scope>
+        <scope>compile</scope> <!-- compiled against in knotx-junit5 -->
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-junit-jupiter</artifactId>
         <version>${mockito2.version}</version>
-        <scope>test</scope>
+        <scope>compile</scope> <!-- compiled against in knotx-junit5 -->
       </dependency>
       <dependency>
         <groupId>com.github.tomakehurst</groupId>
         <artifactId>wiremock</artifactId>
         <version>${wiremock.version}</version>
-        <scope>test</scope>
+        <scope>compile</scope> <!-- compiled against in knotx-junit5 -->
       </dependency>
       <dependency>
         <groupId>com.googlecode.zohhak</groupId>
@@ -304,6 +312,18 @@
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-surefire-provider</artifactId>
         <version>${junit5-surefire.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>me.alexpanov</groupId>
+        <artifactId>free-port-finder</artifactId>
+        <version>${free-port-finder.version}</version>
+        <scope>compile</scope> <!-- compiled against in knotx-junit5 -->
+      </dependency>
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>${assertj.version}</version>
+        <scope>test</scope>
       </dependency>
 
       <!-- JUnit5 BOM -->
