@@ -6,7 +6,7 @@
 
   <groupId>io.knotx</groupId>
   <artifactId>knotx-dependencies</artifactId>
-  <version>1.3.1-SNAPSHOT</version>
+  <version>1.4.0-SNAPSHOT</version>
 
   <name>Knotx.x Stack - Knotx.x components and required dependencies versions</name>
   <packaging>pom</packaging>
