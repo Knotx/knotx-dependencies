@@ -164,6 +164,18 @@
         <version>${project.version}</version>
       </dependency>
 
+      <!-- Knot.x Forms -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-forms-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-forms-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
       <!-- Logger -->
       <dependency>
         <groupId>ch.qos.logback</groupId>
