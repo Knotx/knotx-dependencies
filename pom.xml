@@ -74,7 +74,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Stack versions -->
-    <vertx.stack.version>3.5.3</vertx.stack.version>
+    <vertx.stack.version>3.5.4</vertx.stack.version>
 
     <!-- Dependencies versions -->
     <jsoup.version>1.11.2</jsoup.version>
@@ -161,6 +161,18 @@
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-databridge-adapter-http</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <!-- Knot.x Forms -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-forms-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-forms-api</artifactId>
         <version>${project.version}</version>
       </dependency>
 
