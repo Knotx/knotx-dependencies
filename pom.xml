@@ -133,11 +133,6 @@
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-knot-handlebars</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
         <artifactId>knotx-mocks</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -173,6 +168,23 @@
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-forms-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <!-- Knot.x Template Engine -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-template-engine-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-template-engine-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-template-engine-handlebars</artifactId>
         <version>${project.version}</version>
       </dependency>
 
