@@ -4,6 +4,8 @@ All notable changes to `knotx-dependencies` will be documented in this file.
 ## Unreleased
 List of changes that are finished but not yet released in any final version.
 
+- [PR-15](https://github.com/Knotx/knotx-dependencies/pull/15) - Configure Knot.x Template Engine in BOM file
+
 ## 1.4.0
 - [PR-2](https://github.com/Knotx/knotx-dependencies/pull/2) - JUnit 5 libraries added
 - [PR-7](https://github.com/Knotx/knotx-dependencies/pull/7) - Configure Knot.x Data Bridge in BOM file
