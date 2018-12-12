@@ -123,16 +123,6 @@
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-adapter-common</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-knot-action</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
         <artifactId>knotx-mocks</artifactId>
         <version>${project.version}</version>
       </dependency>
