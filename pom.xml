@@ -8,7 +8,7 @@
   <artifactId>knotx-dependencies</artifactId>
   <version>1.5.0-SNAPSHOT</version>
 
-  <name>Knotx.x Stack - Knotx.x components and required dependencies versions</name>
+  <name>Knot.x Dependencies - Knot.x components and required dependencies versions</name>
   <packaging>pom</packaging>
   <description>Knot.x stack dependencies POM</description>
   <url>http://knotx.io</url>
