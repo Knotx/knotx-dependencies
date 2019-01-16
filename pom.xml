@@ -74,7 +74,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Stack versions -->
-    <vertx.stack.version>3.5.4</vertx.stack.version>
+    <vertx.stack.version>3.6.2</vertx.stack.version>
 
     <!-- Dependencies versions -->
     <jsoup.version>1.11.2</jsoup.version>
@@ -113,6 +113,13 @@
         <version>${vertx.stack.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+
+      <!-- Vert.x - missing dependency -->
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-rx-java2-gen</artifactId>
+        <version>${vertx.stack.version}</version>
       </dependency>
 
       <!-- Knot.x stack -->
