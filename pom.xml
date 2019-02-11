@@ -125,7 +125,17 @@
       <!-- Knot.x stack -->
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-core</artifactId>
+        <artifactId>knotx-fragment-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-server-http-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-knot-engine-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
