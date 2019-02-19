@@ -142,7 +142,7 @@
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-splitter</artifactId>
+        <artifactId>knotx-splitter-html</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
