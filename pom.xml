@@ -122,12 +122,14 @@
         <version>${vertx.stack.version}</version>
       </dependency>
 
-      <!-- Knot.x stack -->
+      <!-- Knot.x Fragment -->
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-fragment-api</artifactId>
         <version>${project.version}</version>
       </dependency>
+
+      <!-- Knot.x HTTP Server -->
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-server-http-api</artifactId>
@@ -135,26 +137,50 @@
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
+        <artifactId>knotx-server-http-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-splitter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-assembler</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <!-- Knot.x Repositories -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-repository-connector-http</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-repository-connector-fs</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <!-- Knot Engine  -->
+      <dependency>
+        <groupId>io.knotx</groupId>
         <artifactId>knotx-knot-engine-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-mocks</artifactId>
+        <artifactId>knotx-knot-engine-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-stack-manager</artifactId>
+        <artifactId>knotx-knot-engine-handler</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <!-- Knot.x Data Bridge -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-databridge-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-databridge-api</artifactId>
@@ -162,19 +188,12 @@
       </dependency>
       <dependency>
         <groupId>io.knotx</groupId>
+        <artifactId>knotx-databridge-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
         <artifactId>knotx-databridge-adapter-http</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x Forms -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-forms-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-forms-api</artifactId>
         <version>${project.version}</version>
       </dependency>
 
@@ -192,6 +211,18 @@
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-template-engine-handlebars</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <!-- Knot.x Stack -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-launcher</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-stack-manager</artifactId>
         <version>${project.version}</version>
       </dependency>
 
