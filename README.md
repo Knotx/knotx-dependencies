@@ -17,8 +17,8 @@ Import dependencies versions
 ```
 Then use deps without versions, e.g.
 ```xml
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-core</artifactId>
-      </dependency>
+  <dependency>
+    <groupId>io.knotx</groupId>
+    <artifactId>knotx-server-http-apii</artifactId>
+  </dependency>
 ```
