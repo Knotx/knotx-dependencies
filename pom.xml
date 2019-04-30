@@ -178,17 +178,7 @@
       <!-- Knot.x Data Bridge -->
       <dependency>
         <groupId>io.knotx</groupId>
-        <artifactId>knotx-databridge-api</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-databridge-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-databridge-adapter-http</artifactId>
+        <artifactId>knotx-action-http</artifactId>
         <version>${project.version}</version>
       </dependency>
 
@@ -264,19 +254,6 @@
         <artifactId>config</artifactId>
         <version>${typesafe.version}</version>
       </dependency>
-
-      <!-- DEPRECATED START -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-knot-service</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-adapter-service-http</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <!-- DEPRECATED END -->
 
       <!-- Test deps -->
       <dependency>
