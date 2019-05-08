@@ -74,15 +74,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Stack versions -->
-    <vertx.stack.version>3.6.3</vertx.stack.version>
+    <vertx.stack.version>3.7.0</vertx.stack.version>
 
     <!-- Dependencies versions -->
-    <jsoup.version>1.11.2</jsoup.version>
     <commons-io.version>2.6</commons-io.version>
     <commons-lang3.version>3.8</commons-lang3.version>
     <commons-collections.version>3.2.2</commons-collections.version>
     <commons-collections4.version>4.2</commons-collections4.version>
-    <guava.version>26.0-jre</guava.version>
+    <guava.version>27.1-jre</guava.version>
     <logback-classic.version>1.2.3</logback-classic.version>
     <typesafe.version>1.3.3</typesafe.version>
 
@@ -126,6 +125,13 @@
       <dependency>
         <groupId>io.knotx</groupId>
         <artifactId>knotx-fragment-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <!-- Knot.x Commons -->
+      <dependency>
+        <groupId>io.knotx</groupId>
+        <artifactId>knotx-commons</artifactId>
         <version>${project.version}</version>
       </dependency>
 
@@ -216,12 +222,6 @@
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
         <version>${logback-classic.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.jsoup</groupId>
-        <artifactId>jsoup</artifactId>
-        <version>${jsoup.version}</version>
       </dependency>
 
       <dependency>
