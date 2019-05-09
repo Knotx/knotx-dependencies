@@ -78,24 +78,17 @@
 
     <!-- Dependencies versions -->
     <commons-io.version>2.6</commons-io.version>
-    <commons-lang3.version>3.8</commons-lang3.version>
-    <commons-collections.version>3.2.2</commons-collections.version>
+    <commons-lang3.version>3.9</commons-lang3.version>
     <commons-collections4.version>4.2</commons-collections4.version>
     <guava.version>27.1-jre</guava.version>
     <logback-classic.version>1.2.3</logback-classic.version>
     <typesafe.version>1.3.3</typesafe.version>
 
     <!-- Test deps versions -->
-    <junit.version>4.12</junit.version>
-    <junit5.version>5.3.2</junit5.version>
-    <junit5-surefire.version>1.2.0</junit5-surefire.version>
-    <hamcrest.version>1.3</hamcrest.version>
+    <junit5.version>5.4.1</junit5.version>
+    <junit5-surefire.version>1.4.1</junit5-surefire.version>
     <assertj.version>3.11.1</assertj.version>
-    <powermock.version>1.7.4</powermock.version>
-    <mockito.version>2.0.2-beta</mockito.version>
     <mockito2.version>2.22.0</mockito2.version>
-    <zohhak.version>1.1.1</zohhak.version>
-    <hamcrest-json.version>0.2</hamcrest-json.version>
     <system-rules.version>1.16.1</system-rules.version>
     <wiremock.version>2.18.0</wiremock.version>
     <free-port-finder.version>1.1.1</free-port-finder.version>
@@ -245,11 +238,6 @@
         <version>${commons-io.version}</version>
       </dependency>
       <dependency>
-        <groupId>commons-collections</groupId>
-        <artifactId>commons-collections</artifactId>
-        <version>${commons-collections.version}</version>
-      </dependency>
-      <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-collections4</artifactId>
         <version>${commons-collections4.version}</version>
@@ -274,36 +262,6 @@
         <version>${project.version}</version>
         <scope>test</scope>
       </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${junit.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.hamcrest</groupId>
-        <artifactId>hamcrest-all</artifactId>
-        <version>${hamcrest.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.powermock</groupId>
-        <artifactId>powermock-api-mockito</artifactId>
-        <version>${powermock.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.powermock</groupId>
-        <artifactId>powermock-module-junit4</artifactId>
-        <version>${powermock.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency><!-- Legacy version -->
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-all</artifactId>
-        <version>${mockito.version}</version>
-        <scope>test</scope>
-      </dependency>
       <dependency><!-- JUnit 5 compatible -->
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
@@ -321,18 +279,6 @@
         <artifactId>wiremock</artifactId>
         <version>${wiremock.version}</version>
         <scope>compile</scope> <!-- compiled against in knotx-junit5 -->
-      </dependency>
-      <dependency>
-        <groupId>com.googlecode.zohhak</groupId>
-        <artifactId>zohhak</artifactId>
-        <version>${zohhak.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>uk.co.datumedge</groupId>
-        <artifactId>hamcrest-json</artifactId>
-        <version>${hamcrest-json.version}</version>
-        <scope>test</scope>
       </dependency>
       <dependency>
         <groupId>com.github.stefanbirkner</groupId>
