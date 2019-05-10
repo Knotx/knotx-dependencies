@@ -3,9 +3,9 @@ All notable changes to `knotx-dependencies` will be documented in this file.
 
 ## Unreleased
 List of changes that are finished but not yet released in any final version.
-- Migrate to Vert.x 3.7.0.
+- Migrate to Vert.x `3.7.0`.
 - Add all Knot.x 2.0.0 dependencies.
-- Remove deprecated dependencies: JUnit4, PowerMock, Hamcrest Matchers, Zohhak.
+- Remove deprecated dependencies: `JUnit4`, `PowerMock`, `Hamcrest Matchers`, `Zohhak`.
 
 ## 1.5.0
 - [PR-16](https://github.com/Knotx/knotx-dependencies/pull/16) - Removed `knotx-adapter-common` dependency
