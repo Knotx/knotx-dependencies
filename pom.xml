@@ -114,107 +114,6 @@
         <version>${vertx.stack.version}</version>
       </dependency>
 
-      <!-- Knot.x Fragment -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-fragment-api</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x Commons -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-commons</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x HTTP Server -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-server-http-api</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-server-http-common-placeholders</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-server-http-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-splitter-html</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-assembler</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x Repositories -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-repository-connector-http</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-repository-connector-fs</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot Fragments Handler  -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-fragments-handler-api</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-fragments-handler-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x Data Bridge -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-action-http</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x Template Engine -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-template-engine-api</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-template-engine-core</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-template-engine-handlebars</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <!-- Knot.x Stack -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-launcher</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-stack-manager</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
       <!-- Logger -->
       <dependency>
         <groupId>ch.qos.logback</groupId>
@@ -249,19 +148,6 @@
       </dependency>
 
       <!-- Test deps -->
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-launcher</artifactId>
-        <type>test-jar</type>
-        <version>${project.version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>io.knotx</groupId>
-        <artifactId>knotx-junit5</artifactId>
-        <version>${project.version}</version>
-        <scope>test</scope>
-      </dependency>
       <dependency><!-- JUnit 5 compatible -->
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
