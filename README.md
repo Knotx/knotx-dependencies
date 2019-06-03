@@ -19,6 +19,6 @@ Then use deps without versions, e.g.
 ```xml
   <dependency>
     <groupId>io.knotx</groupId>
-    <artifactId>knotx-server-http-apii</artifactId>
+    <artifactId>knotx-server-http-api</artifactId>
   </dependency>
 ```
