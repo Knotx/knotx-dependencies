@@ -1,4 +1,3 @@
-[![][license img]][license]
 [![Build Status](https://dev.azure.com/knotx/Knotx/_apis/build/status/Knotx.knotx-dependencies?branchName=master)](https://dev.azure.com/knotx/Knotx/_build/latest?definitionId=4&branchName=master)
 
 # Knot.x Dependencies
