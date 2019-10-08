@@ -2,11 +2,11 @@
 All notable changes to `knotx-dependencies` will be documented in this file.
 
 ## Unreleased
-- [PR-27](https://github.com/Knotx/knotx-dependencies/pull/27) Upgrade to Vert.x `3.8.2`.
-- [PR-26](https://github.com/Knotx/knotx-dependencies/pull/26) Upgrade to Vert.x `3.8.1`.
+- [PR-27](https://github.com/Knotx/knotx-dependencies/pull/27) - Upgrade to Vert.x `3.8.2`.
+- [PR-26](https://github.com/Knotx/knotx-dependencies/pull/26) - Upgrade to Vert.x `3.8.1`.
 
 ## 2.0.0
-- [PR-23](https://github.com/Knotx/knotx-dependencies/pull/23) Upgrade to Vert.x `3.7.1`.
+- [PR-23](https://github.com/Knotx/knotx-dependencies/pull/23) - Upgrade to Vert.x `3.7.1`.
 - Add all Knot.x 2.0.0 dependencies.
 - Remove deprecated dependencies: `JUnit4`, `PowerMock`, `Hamcrest Matchers`, `Zohhak`.
 
