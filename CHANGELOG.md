@@ -2,7 +2,7 @@
 All notable changes to `knotx-dependencies` will be documented in this file.
 
 ## Unreleased
-- [PR-27](https://github.com/Knotx/knotx-dependencies/pull/27) - Upgrade to Vert.x `3.8.2`.
+- [PR-27](https://github.com/Knotx/knotx-dependencies/pull/28) - Upgrade to Vert.x `3.8.3`.
 
 ## 2.0.0
 - [PR-23](https://github.com/Knotx/knotx-dependencies/pull/23) - Upgrade to Vert.x `3.7.1`.
