@@ -74,7 +74,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Stack versions -->
-    <vertx.stack.version>3.8.2</vertx.stack.version>
+    <vertx.stack.version>3.8.3</vertx.stack.version>
 
     <!-- Dependencies versions -->
     <commons-io.version>2.6</commons-io.version>
