@@ -59,7 +59,7 @@ Thumbs.db
 
 # Gradle             #
 ######################
-.gradle
+/.gradle
 !gradle-wrapper.jar
 
 # Netbeans           #
