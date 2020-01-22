@@ -3,6 +3,7 @@ All notable changes to `knotx-dependencies` will be documented in this file.
 
 ## Unreleased
 List of changes that are finished but not yet released in any final version.
+- [PR-33](https://github.com/Knotx/knotx-dependencies/pull/33) - Migrate from Maven to Gradle.
 
 ## 2.1.0
 - [PR-30](https://github.com/Knotx/knotx-dependencies/pull/30) - Upgrade to Vert.x `3.8.4`.
