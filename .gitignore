@@ -54,6 +54,13 @@ Thumbs.db
 # Intellij           #
 ######################
 .idea
+**/build/
+**/out/
+
+# Gradle             #
+######################
+.gradle
+!gradle-wrapper.jar
 
 # Netbeans           #
 ######################
