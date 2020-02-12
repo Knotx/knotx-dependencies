@@ -48,10 +48,11 @@ steps:
       workingDirectory: '$(workspaceDir)/knotx-stack'
       tasks: 'build'
     displayName: "Build Stack"
-  - task: Maven@3
+  - task: Gradle@2
     inputs:
-      mavenPomFile: '$(workspaceDir)/knotx-docker/pom.xml'
-      goals: 'package'
+      gradleWrapperFile: '$(workspaceDir)/knotx-docker/gradlew'
+      workingDirectory: '$(workspaceDir)/knotx-docker'
+      tasks: 'build'
     displayName: "Build Docker image"
   - task: Gradle@2
     inputs:
@@ -65,3 +66,10 @@ steps:
       workingDirectory: '$(workspaceDir)/knotx-starter-kit'
       tasks: 'build-docker'
     displayName: "Build Starter Kit: Docker"
+  - script: |
+      REPO=$(cut -d'/' -f2 <<<$(Build.Repository.Name))
+      if [[ -f "$(workspaceDir)/$REPO/gradlew" ]]; then
+        $(workspaceDir)/$REPO/gradlew -p $(workspaceDir)/$REPO clean test jacocoTestReport
+        bash <(curl -s https://codecov.io/bash) -s $(workspaceDir)/$REPO -t $(CODECOV_TOKEN)
+      fi
+    displayName: "Run Codecov inspection"
