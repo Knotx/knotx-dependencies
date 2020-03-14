@@ -1,5 +1,5 @@
 [![Build Status](https://dev.azure.com/knotx/Knotx/_apis/build/status/Knotx.knotx-dependencies?branchName=master)](https://dev.azure.com/knotx/Knotx/_build/latest?definitionId=4&branchName=master)
-[![Gradle Status](https://gradleupdate.appspot.com/Knotx/knotx-commons/status.svg)](https://gradleupdate.appspot.com/Knotx/knotx-commons/status)
+[![Gradle Status](https://gradleupdate.appspot.com/Knotx/knotx-dependencies/status.svg)](https://gradleupdate.appspot.com/Knotx/knotx-dependencies/status)
 
 # Knot.x Dependencies
 
