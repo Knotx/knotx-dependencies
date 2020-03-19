@@ -15,7 +15,8 @@
  */
 plugins {
   `java-platform`
-  id("io.knotx.maven-publish") version "0.1.4"
+  id("io.knotx.release-base")
+  id("io.knotx.maven-publish")
 }
 
 defaultTasks("publishToMavenLocal")
@@ -23,7 +24,7 @@ defaultTasks("publishToMavenLocal")
 repositories {
   jcenter()
   maven { url = uri("https://plugins.gradle.org/m2/") }
-  maven { url = uri("http://repo.maven.apache.org/maven2") }
+  maven { url = uri("https://repo.maven.apache.org/maven2") }
   maven { url = uri("https://oss.sonatype.org/content/groups/staging/") }
 }
 
@@ -85,3 +86,24 @@ tasks.withType<Sign>().configureEach {
 }
 
 fun prop(id: String): String = project.properties[id] as String
+
+tasks {
+  named("build") {
+    mustRunAfter("setVersion")
+  }
+
+  named("updateChangelog") {
+    dependsOn("build", "setVersion")
+  }
+
+  register("prepare") {
+    group = "release"
+    dependsOn("updateChangelog", "publishToMavenLocal")
+  }
+
+  register("publishArtifacts") {
+    group = "release"
+    dependsOn("publish")
+    logger.lifecycle("Publishing java artifacts")
+  }
+}
