@@ -15,3 +15,16 @@
  */
 
 rootProject.name = "knotx-dependencies"
+
+pluginManagement {
+  val version: String by settings
+  plugins {
+    id("io.knotx.maven-publish") version version
+    id("io.knotx.release-base") version version
+  }
+  repositories {
+    mavenLocal()
+    jcenter()
+    gradlePluginPortal()
+  }
+}

@@ -15,17 +15,16 @@
  */
 plugins {
   `java-platform`
-  id("io.knotx.release-base")
   id("io.knotx.maven-publish")
+  id("io.knotx.release-base")
 }
 
 defaultTasks("publishToMavenLocal")
 
 repositories {
+  mavenLocal()
   jcenter()
-  maven { url = uri("https://plugins.gradle.org/m2/") }
-  maven { url = uri("https://repo.maven.apache.org/maven2") }
-  maven { url = uri("https://oss.sonatype.org/content/groups/staging/") }
+  gradlePluginPortal()
 }
 
 group = "io.knotx"
