@@ -6,7 +6,7 @@
 
   <groupId>io.knotx</groupId>
   <artifactId>knotx-dependencies</artifactId>
-  <version>1.5.0</version>
+  <version>1.5.1-SNAPSHOT</version>
 
   <name>Knot.x Dependencies - Knot.x components and required dependencies versions</name>
   <packaging>pom</packaging>
@@ -74,7 +74,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Stack versions -->
-    <vertx.stack.version>3.5.4</vertx.stack.version>
+    <vertx.stack.version>3.7.1</vertx.stack.version>
 
     <!-- Dependencies versions -->
     <jsoup.version>1.11.2</jsoup.version>
@@ -115,6 +115,22 @@
         <scope>import</scope>
       </dependency>
 
+      <!-- Vert.x - missing dependency -->
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-rx-java2-gen</artifactId>
+        <version>${vertx.stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-rx-java-gen</artifactId>
+        <version>${vertx.stack.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-rx-gen</artifactId>
+        <version>${vertx.stack.version}</version>
+      </dependency>
       <!-- Knot.x stack -->
       <dependency>
         <groupId>io.knotx</groupId>
