@@ -74,7 +74,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- Stack versions -->
-    <vertx.stack.version>3.7.1</vertx.stack.version>
+    <vertx.stack.version>3.8.5</vertx.stack.version>
 
     <!-- Dependencies versions -->
     <jsoup.version>1.11.2</jsoup.version>
