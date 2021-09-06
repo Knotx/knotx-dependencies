@@ -3,6 +3,8 @@ All notable changes to `knotx-dependencies` will be documented in this file.
 
 ## Unreleased
 List of changes that are finished but not yet released in any final version.
+                
+## 2.3.1
 - [PR-69](https://github.com/Knotx/knotx-dependencies/pull/69) - **[security]** Fixing Guava vulnerabilities.
 - [PR-66](https://github.com/Knotx/knotx-dependencies/pull/66) - Upgrade to Vert.x `3.9.8`.
 
