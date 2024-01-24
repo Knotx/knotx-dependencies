@@ -46,8 +46,7 @@ dependencies {
 
     api("org.mockito:mockito-core:${prop("mockito2.version")}")
     api("org.mockito:mockito-junit-jupiter:${prop("mockito2.version")}")
-    api("com.github.tomakehurst:wiremock-jre8:${prop("wiremock.version")}")
-    api("org.junit.platform:junit-platform-surefire-provider:${prop("junit5-surefire.version")}")
+    api("org.wiremock:wiremock:${prop("wiremock.version")}")
     api("me.alexpanov:free-port-finder:${prop("free-port-finder.version")}")
     api("org.assertj:assertj-core:${prop("assertj.version")}")
   }
