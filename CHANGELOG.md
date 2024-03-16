@@ -3,6 +3,8 @@ All notable changes to `knotx-dependencies` will be documented in this file.
 
 ## Unreleased
 List of changes that are finished but not yet released in any final version.
+                
+## 2.4.0
 - [PR-71](https://github.com/Knotx/knotx-dependencies/pull/71) **[security]** Upgrade to Vert.x `3.9.16`, fixing outdated dependencies vulnerabilities
 
 ## 2.3.1
